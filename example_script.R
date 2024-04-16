@@ -16,4 +16,6 @@ starwars |>
 
 iris |>
   ggplot(aes(Sepal.Length, Sepal.Width, colour = Species)) +
-  geom_point()
+  geom_point() +
+  theme_classic() +
+  scale_colour_manual(values = c("red", "blue", "green"))
