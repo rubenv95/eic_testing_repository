@@ -19,3 +19,8 @@ iris |>
   geom_point() +
   theme_classic() +
   scale_colour_manual(values = c("red", "blue", "green"))
+
+
+#### Add another chart ----
+
+table(mtcars$mpg)
